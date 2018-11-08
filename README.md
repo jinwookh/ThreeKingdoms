@@ -7,7 +7,7 @@
 
 
 
-## step 1: 삼국지 텍스트 데이터를 기초로 장수 검색엔진 개발 
+### Step 1: 삼국지 텍스트 데이터를 기초로 장수 검색엔진 개발 
 
  * 관련 시나리오: 백엔트 시나리오 3
 
@@ -15,7 +15,7 @@
 
  * 사용기술: elsaticSearch, flask or react(front end), django or node.js (backend)
 
-## step 2: 삼국지 텍스트를 mongoDB에 저장, DB 구조 설정 
+### Step 2: 삼국지 텍스트를 mongoDB에 저장, DB 구조 설정 
 
  * 관련 시나리오: 데이터 엔지니어링 시나리오 1
 
@@ -25,7 +25,7 @@
  * issue: 'characters' field를 입력을 자동화할 수 있는 방법은? 다시 말해, 하나의 chapter에서 인물 이름만 자동으로 뽑을 수 있는 방법이 있는가?
  
  
-## step 3 : step 2에서 만든 db를 기반으로, 장수들의 strong set을 만드는 알고리즘 개발
+### Step 3 : step 2에서 만든 db를 기반으로, 장수들의 strong set을 만드는 알고리즘 개발
 
  * apriori 알고리즘을 기반으로 장수들과 강한 연관성을 지닌 단어들을 추출
  
