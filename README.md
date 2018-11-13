@@ -13,7 +13,7 @@
 
  * 기능: 장수 이름을 질의하면 장수 이름이 들어간 문장들을 반환한다.
 
- * 사용기술: elsaticSearch, flask or react(front end), django or node.js (backend)
+ * 사용기술: elsaticSearch(미정), flask or react(front end), django or node.js (backend)
 
 ### Step 2: 삼국지 텍스트를 mongoDB에 저장, DB 구조 설정 
 
@@ -25,9 +25,9 @@
  * issue: 'characters' field를 입력을 자동화할 수 있는 방법은? 다시 말해, 하나의 chapter에서 인물 이름만 자동으로 뽑을 수 있는 방법이 있는가?
  
  
-### Step 3 : step 2에서 만든 db를 기반으로, 장수들의 strong set을 만드는 알고리즘 개발
+### Step 3 : step 2에서 만든 db를 기반으로, 장수들과 연관성 있는 단어들 추출
 
- * apriori 알고리즘을 기반으로 장수들과 강한 연관성을 지닌 단어들을 추출
+ * 어떻게??
  
  * key: 장수이름, value: 연관성 있는 단어들인 또다른 db 구성
  
