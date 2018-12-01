@@ -7,32 +7,29 @@
 
 
 
-### Step 1: 삼국지 텍스트 데이터를 기초로 단어 쿼리 개발 
 
- * 관련 시나리오: 백엔트 시나리오 3
-
- * 기능: 장수 이름을 질의하면 장수 이름이 들어간 문장들을 반환한다.
-
- * 사용기술: elsaticSearch(미정), flask or react(front end), django or node.js (backend)
-
-### Step 2: 삼국지 텍스트를 mongoDB에 저장, DB 구조 설정 
+### Step 1: 삼국지 텍스트를 mongoDB에 저장, DB 구조 설정 
 
  * 관련 시나리오: 데이터 엔지니어링 시나리오 1
 
  * DB 필드: 'title', 'content', 'chapter', 'characters'
 
    chapter is the primary key
- * issue: 'characters' field를 입력을 자동화할 수 있는 방법은? 다시 말해, 하나의 chapter에서 인물 이름만 자동으로 뽑을 수 있는 방법이 있는가?
+
+ 
+ ### Step 2: 삼국지 텍스트 데이터를 기초로 단어 쿼리 개발 
+
+ * 관련 시나리오: 백엔트 시나리오 3
+
+ * 기능: 장수 이름을 질의하면 장수 이름이 들어간 문장들을 반환한다.
+
+ * 사용기술:  SQL(for query) , flask or react(front end), django or node.js (backend)
  
  
 ### Step 3 : step 2에서 만든 db를 기반으로, 장수들과 연관성 있는 단어들 추출
 
  * 어떻게??
  
- * key: 장수이름, value: 연관성 있는 단어들인 또다른 db 구성
- 
- * 기능: 사용자가 장수이름을 입력하면, 장수와 관계된 단어들을 리턴한다.
- 
- * 기술: mongoDB, elasticSearch, flask or react(front end), django or node.js (backend)
+
 
 
